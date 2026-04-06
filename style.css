@@ -1,29 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
-    color: white;
-    padding: 40px;
+    font-family: Arial, sans-serif;     /* tipo da fonte; sans-serif = (sem pézinhos na letra) */
+    background-color: #1a1a2e;       /* cor de fundo; #1a1a2e é um azul escuro em hexadecimal */
+    color: white;                    /* cor do texto */
+    padding: 40px;                     /* espaço interno nas bordas da página - padding (espaço do lado de dentro do elemento); px = pixels (unidade de medida da tela)*/
 }
 
 h1 {
-    color: #ff6b9d;
-    font-size: 3rem;
+    color: #ff6b9d;   /* rosa. # = código hexadecimal de cor */
+    font-size: 3rem;    /* tamanho da fonte; rem = unidade relativa ao tamanho base do navegador */
 }
 
 h2 {
-    color: #00c9a7;
+    color: #00c9a7;   /* verde água */
 }
 
 h3 {
     color: #00c9a7;
-    margin-top: 40px;
+    margin-top: 40px;   /* espaço ACIMA do elemento; margin = margem externa (espaço do lado de fora do elemento) */
 }
 
 p {
-    line-height: 1.8;
-    color: #cccccc;
+    line-height: 1.8;   /* espaçamento entre linhas; 1.8 = 180% do tamanho da fonte */
+    color: #cccccc;   /* cinza claro; cc = valor médio no hexadecimal */
 }
 
 ul {
-    line-height: 2;
+    line-height: 2;    /* espaçamento entre os itens da lista */
 }

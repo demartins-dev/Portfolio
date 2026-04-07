@@ -1,13 +1,14 @@
 body {
-    font-family: Arial, sans-serif;     /* tipo da fonte; sans-serif = (sem pézinhos na letra) */
-    background-color: #1a1a2e;       /* cor de fundo; #1a1a2e é um azul escuro em hexadecimal */
-    color: white;                    /* cor do texto */
-    padding: 40px;                     /* espaço interno nas bordas da página - padding (espaço do lado de dentro do elemento); px = pixels (unidade de medida da tela)*/
+    font-family: 'DM Sans', sans-serif;     /* tipo da fonte; sans-serif = (sem pézinhos na letra) */
+    background-color: #1a1a2e;           /* cor de fundo; #1a1a2e é um azul escuro em hexadecimal */
+    color: white;                       /* cor do texto */
+    padding: 40px;                        /* espaço interno nas bordas da página - padding (espaço do lado de dentro do elemento); px = pixels (unidade de medida da tela)*/
 }
 
 h1 {
-    color: #ff6b9d;   /* rosa. # = código hexadecimal de cor */
-    font-size: 3rem;    /* tamanho da fonte; rem = unidade relativa ao tamanho base do navegador */
+    color: #ff6b9d;                             /* rosa. # = código hexadecimal de cor */
+    font-size: 3rem;                              /* tamanho da fonte; rem = unidade relativa ao tamanho base do navegador */
+    font-family: 'Playfair Display', serif;      /* fonte elegante para o título. serif = (com pézinhos na letra) */
 }
 
 h2 {

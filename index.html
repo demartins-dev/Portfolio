@@ -1,39 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Desire Martins | Portfólio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/> <!-- Importa duas fontes do Google Fonts (site gratuito de fontes) -->
-    <!-- Playfair Display: fonte elegante para títulos -->
-    <!-- DM Sans: fonte moderna para textos -->
-    <link rel="stylesheet" href="style.css" /> <!-- Conecta o arquivo CSS ao HTML -->
-    <!-- rel="stylesheet" = tipo de arquivo que está linkando -->
-    <!-- href="style.css" = caminho do arquivo CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desire Martins | Portfólio</title>
+  <!-- Importa duas fontes do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <!-- Conecta o arquivo CSS ao HTML -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="bg-blobs">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+</div>
 
-    <h1>Desire Martins</h1>
-    <h2>Professora e Estudante de ADS</h2>
+  <!-- MENU DE NAVEGAÇÃO -->
+  <nav>
+    <div class="nav-logo">DM</div>
+    <div class="nav-links">
+      <a href="#hero">Início</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
 
-    <h3>Sobre mim</h3>
-    <p>
+  <!-- SEÇÃO PRINCIPAL -->
+  <section id="hero">
+    <div class="hero-text">
+      <div class="hero-badge">✨ Disponível para oportunidades</div>
+      <h1>Desire<br/>Martins</h1>
+      <p class="hero-title">Professora & Estudante de ADS</p>
+      <p class="hero-desc">
         Sou professora e estudante de Análise e Desenvolvimento de Sistemas,
-        apaixonada por tecnologia e em constante aprendizado.
-    </p>
+        apaixonada por tecnologia e em constante aprendizado. Estou desenvolvendo
+        habilidades em programação, suporte de TI e ferramentas do dia a dia,
+        sempre buscando transformar conhecimento em prática.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contato" class="btn btn-primary">Entre em contato</a>
+        <a href="https://github.com/demartins-dev" target="_blank" class="btn btn-outline">Ver GitHub</a>
+      </div>
+    </div>
 
-    <h3>Habilidades</h3>
-    <ul>
-        <li>Linguagem C</li>
-        <li>Python</li>
-        <li>Desenvolvimento web</li>
-        <li>Lógica de programação</li>
-        <li>Microsoft Office</li>
-    </ul>
+    <!-- FOTO -->
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <img src="./foto.jpg" alt="Desire Martins"/>
+      </div>
+    </div>
+  </section>
 
-    <h3>Contatos</h3>
-    <p>📧 desire.martins.dm@gmail.com</p>
-    <p>🐙 github.com/demartins-dev</p>
-    <p>💼 linkedin.com/in/desiremartins</p>
+  <!-- SEÇÃO HABILIDADES -->
+  <section id="habilidades">
+    <p class="section-label">O que eu sei</p>
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <div class="skill-name">Linguagem C</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">Desenvolvimento Web</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🧠</div>
+        <div class="skill-name">Lógica de Programação</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📊</div>
+        <div class="skill-name">Microsoft Office</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎓</div>
+        <div class="skill-name">Educação & Ensino</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO CONTATO -->
+  <section id="contato">
+    <p class="section-label">Vamos conversar</p>
+    <h2>Contato</h2>
+    <div class="contact-card">
+      <p class="contact-desc">
+        Estou aberta a novas oportunidades, estágios e conexões na área de tecnologia.
+        Fique à vontade para entrar em contato! 💜
+      </p>
+      <div class="contact-links">
+        <a href="mailto:desire.martins.dm@gmail.com" class="contact-link">
+          <span class="contact-icon">📧</span>
+          desire.martins.dm@gmail.com
+        </a>
+        <a href="https://github.com/demartins-dev" target="_blank" class="contact-link">
+          <span class="contact-icon">🐙</span>
+          github.com/demartins-dev
+        </a>
+        <a href="https://linkedin.com/in/desiremartins" target="_blank" class="contact-link">
+          <span class="contact-icon">💼</span>
+          linkedin.com/in/desiremartins
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    © 2026 Desire Martins · Feito com 💜 e muito aprendizado
+  </footer>
+
 </body>
 </html>
